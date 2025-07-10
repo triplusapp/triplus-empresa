@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/roobert/RoobertRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/assets/roobert/RoobertRegularItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/assets/roobert/RoobertLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: italic;
+  font-weight: 200;
+  src: url('/assets/roobert/RoobertLightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/roobert/RoobertMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/assets/roobert/RoobertMediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/roobert/RoobertSemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/assets/roobert/RoobertSemiBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/roobert/RoobertBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/assets/roobert/RoobertBoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/roobert/RoobertHeavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roobert';
+  font-style: italic;
+  font-weight: 800;
+  src: url('/assets/roobert/RoobertHeavyItalic.woff') format('woff');
+}

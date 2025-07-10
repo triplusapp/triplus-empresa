@@ -1,0 +1,678 @@
+{
+  "locale": {
+    "ca": "Català",
+    "es": "Español"
+  },
+  "validations": {
+    "required": "Este campo no se puede dejar vacío.",
+    "multilang_required": "Debe completar este campo en todos los idiomas.",
+    "email": "La dirección que ha introducido no tiene un formato válido. Revíselo.",
+    "missing_fields": "Hay campos sin atender, que no se pueden dejar vacíos.",
+    "numeric_field_required": "Este campo no se puede dejar vacío. Ponga un 0 en todo caso.",
+    "minLength": "Este campo debe tener al menos {num} caracteres."
+  },
+  "global": {
+    "save_btn": "Guardar",
+    "cancel_btn": "Cancelar",
+    "close_btn": "Cerrar",
+    "edit_btn": "Editar",
+    "back_btn": "Volver",
+    "delete_confirmation_btn": "Sí, elimínalo",
+    "alert_messages": {
+      "saved": "Cambios guardados",
+      "platform_closed": "No se han podido guardar los cambios. La plataforma está cerrada hasta que se abra el nuevo periodo."
+    }
+  },
+  "auth": {
+    "login": {
+      "welcome": "Bienvenido, bienvenida",
+      "intro": "Inicia sesión",
+      "email": "Email",
+      "password": "Contraseña",
+      "forgot_password_btn": "¿No recuerdas tu contraseña?",
+      "no_account_text": "¿No tienes cuenta aún?",
+      "register_btn": "Regístrate"
+    },
+    "register": {
+      "intro": "Crea una cuenta para registrar la empresa:",
+      "legal_name": "Razón social",
+      "name": "Nombre comercial de la empresa",
+      "email": "Email",
+      "password": "Contraseña",
+      "register_btn": "Registrar la empresa",
+      "already_registered_text": "¿Ya tienes cuenta?",
+      "login": "Iniciar sesión"
+    }
+  },
+  "media-library": {
+    "fileTypeNotAllowed": "El archivo debe ser del tipo",
+    "tooLarge": "El archivo es demasiado grande, máximo",
+    "tooSmall": "El archivo es demasiado pequeño, mínimo",
+    "tryAgain": "Por favor, inténtalo de nuevo",
+    "somethingWentWrong": "Algo ha ido mal al subir este archivo",
+    "selectOrDrag": "Selecciona o arrastra archivos",
+    "selectOrDragMax": "Selecciona o arrastra un máximo de {maxItems} {file}",
+    "file": {
+      "singular": "archivo",
+      "plural": "archivos"
+    },
+    "anyImage": "cualquier imagen",
+    "anyVideo": "cualquier vídeo",
+    "goBack": "Volver",
+    "dropFile": "Suelta el archivo para subirlo",
+    "dragHere": "Arrastra el archivo aquí",
+    "remove": "Eliminar",
+    "download": "Descargar"
+  },
+  "nav": {
+    "home": "Inicio",
+    "settings": "Configuración",
+    "profile": "Perfil de empresa",
+    "company": "Indicadores de empresa",
+    "sector": "Indicadores de sectores",
+    "products": "Indicadores de productos",
+    "legal_documents": "Documentación jurídica",
+    "audit_reports": "Informes de auditoría"
+  },
+  "home": {
+    "auth": {
+      "login": "Iniciar sesión",
+      "register": "Registrar una empresa",
+      "logout": "Cerrar sesión"
+    },
+    "footer": {
+      "promoted_by": "Promueve:",
+      "financed_by": "Financia:",
+      "promoted_and_financed_by_text": "Promueve y financia: la Generalitat de Catalunya - Departamento de Empresa y Trabajo:"
+    }
+  },
+  "help": {
+    "help_btn": "Ayuda",
+    "faqs": "Preguntas frecuentes",
+    "documents": "Documentos"
+  },
+  "legal_documents": {
+    "page_title": "Documentación jurídica",
+    "intro": "Convenios firmados entre la empresa y Triplus, presentados por fecha de firma. En negrita, el convenio vigente.",
+    "valid_until": "Vigente hasta el día {date}",
+    "download_btn": "Descargar el convenio firmado",
+    "no_results": "Todavía no tienes ningún convenio firmado"
+  },
+  "audit_reports": {
+    "page_title": "Informes de auditoría",
+    "intro": "Presentados por fecha de validación",
+    "download_btn": "Descargar el informe",
+    "no_results": "Todavía no tienes ningún informe de auditoría"
+  },
+  "contact": {
+    "open_modal": "Contactar",
+    "title": "Consultas y sugerencias",
+    "text": "Envíanos tus dudas, preguntas o comentarios, y te atenderemos tan pronto como podamos.",
+    "cancel_btn": "Cancelar",
+    "send_btn": "Enviar el mensaje",
+    "phone": "Teléfono",
+    "email": "Email",
+    "message": "Mensaje",
+    "message_placeholder": "Escribe aquí..."
+  },
+  "settings": {
+    "page_title": "Configuración",
+    "users": {
+      "title": "Gestión de los usuarios",
+      "intro": "En este apartado puedes gestionar los usuarios que tienen acceso a la cuenta de tu empresa:",
+      "add_user": "Añadir un usuario",
+      "user_name": "Nombre",
+      "user_email": "Email",
+      "delete_confirmation": {
+        "header": "Eliminar un usuario",
+        "message": "¿Seguro que quieres eliminar al usuario {mail}?",
+        "cancel_btn": "Cancelar",
+        "confirm_btn": "Sí, elimínalo"
+      },
+      "alert_messages": {
+        "deleted_user": "Usuario eliminado",
+        "added_user": "Usuario añadido",
+        "set_main_user": "Usuario principal actualizado"
+      },
+      "main_user": {
+        "indicator": "Usuario principal",
+        "set_as_main": "Establecer como principal",
+        "confirmación": {
+          "encabezado": "Transferir privilegios",
+          "mensaje": "¿Seguro que desea dejar de ser el usuario principal? Si lo confirma, pasará a ser un usuario común y ya no podrá crear ni eliminar usuarios, ni dar por cerrado el proceso de autoevaluación; estos privilegios pasarán al nuevo usuario principal.",
+          "cancel_btn": "Cancelar",
+          "Botón de confirmación": "Sí, transfiere los privilegios a este otro usuario"
+        }
+      },
+      "add_user_modal": {
+        "title": "Nuevo usuario con acceso a la cuenta de empresa",
+        "message": "Indicad el nombre y el correo electrónico del nuevo usuario a crear y le enviaremos un mensaje para que pueda establecer su propia contraseña. Este nuevo usuario tendrá acceso a todos los apartados de la cuenta de empresa, podrá editar todos los datos y evaluar todos los indicadores, pero solo vuestro usuario tendrá permisos para validar la información introducida y finalizar el proceso de autoevaluación.",
+        "confirm_btn": "Envía el mensaje para establecer una contraseña"
+      },
+      "add_user_intro": "Enviaremos un mensaje a esta dirección para que el nuevo usuario pueda establecer su propia contraseña para acceder a la plataforma."
+    },
+    "account": {
+      "title": "Gestión de la cuenta",
+      "intro": "En este apartado puedes actualizar las credenciales que usas para acceder a la plataforma:",
+      "email": "Email",
+      "current_password": "Contraseña actual",
+      "new_password": "Nueva contraseña",
+      "password_confirmation": "Confirmación de la nueva contraseña",
+      "update_password_btn": "Modifica la contraseña",
+      "update_mail_btn": "Modifica el email",
+      "delete_account_btn": "Eliminar la cuenta",
+      "delete_confirmation": {
+        "header": "Eliminar la cuenta",
+        "message": "¿Seguro que quieres eliminar la cuenta de empresa?",
+        "confirm_btn": "Sí, elimínala"
+      },
+      "alert_messages": {
+        "mail_updated": "Email modificado correctamente",
+        "password_updated": "Contraseña modificada correctamente"
+      }
+    }
+  },
+  "profile": {
+    "page_title": "Perfil de empresa",
+    "add_missing_info_btn": "Añadir",
+    "public": {
+      "title": "Información pública",
+      "intro": "Esta información se mostrará públicamente en la app Triplus al acceder a la ficha de empresa.",
+      "legal_name": "Razón social",
+      "name": "Nombre comercial",
+      "address": "Dirección",
+      "description": "Descripción",
+      "placeholder_txt": "Escriba aquí cómo desea presentar la empresa...",
+      "brands_title": "Marcas comerciales",
+      "brand_name": "Marca",
+      "add_brand_btn": "Añadir una marca",
+      "alert_messages": {
+        "missing_brand": "Como mínimo, debe incorporar una marca comercial."
+      }
+    },
+    "indicators": {
+      "title": "Tipología de empresa",
+      "intro": "Esta información condicionará la pertenencia de unos o otros indicadores.",
+      "company_type": "¿Es una sociedad cooperativa?",
+      "cooperative_yes": "Socios trabajadores + personas contratadas",
+      "cooperative_no": "Personal no asalariado + personal asalariado",
+      "workers_num": "Personal total de la empresa",
+      "workers_num_assalariats": "Del total anterior, ¿cuántos son asalariados?",
+      "confirm_delete_indicators_when_num_workers_changed": {
+        "title": "¡Alerta! Tendrás que revisar algunos de los indicadores",
+        "message": "Algunos indicadores tienen en cuenta el número de trabajadores y/o de jornadas, los salarios y en algún caso es necesario enviar una encuesta a toda la plantilla. Si confirmas que el número de trabajadores ha variado, se borrará el contenido de estos indicadores y deberás volver a evaluarlos.",
+        "confirm_btn": "Confirmo que el número de trabajadores ha cambiado"
+      },
+      "alert_messages": {
+        "required_fields": "Para guardar, es necesario responder todos los campos solicitados.",
+        "more_assalariats_than_workers": "El número de trabajadores asalariados no puede superar el número total de trabajadores."
+      }
+    },
+    "auditories": {
+      "title": "Fincas y centros de trabajo",
+      "intro": "Esta información se utilizará para evaluar algunos indicadores y también en las visitas de auditoría.",
+      "terrenys": "Terrenos",
+      "terrenys_info": "Si incorporáis productos de los sectores de producción agrícola o ganadera, además de identificar los emplazamientos donde se realice el trabajo como centros de trabajo (huertos, granja, lugares habituales de pastoreo...), también debéis identificar las fincas. Podéis adjuntar el documento de la DUN (declaración anual) o una tabla que contenga la siguiente información: municipio (código), polígono, parcela, recinto y superficie.",
+      "download_document": "Descargar documento",
+      "uploading_document": "Subiendo documento...",
+      "edificacions": "Centros de trabajo",
+      "no_edificacions": "No hay datos.",
+      "add_edificacio": "Añadir un centro de trabajo",
+      "edit_edificacio": "Editar",
+      "edificacio_delete_confirmation": {
+        "header": "Eliminar un centro de trabajo",
+        "message": "¿Estás seguro de que quieres eliminar este centro de trabajo?"
+      },
+      "edificacio_edit_confirmation": {
+        "header": "Editar un centro de trabajo"
+      },
+      "edificacio_manage": {
+        "add_btn": "Guardar",
+        "title_add": "Nuevo centro de trabajo",
+        "title_edit": "Editar un centro de trabajo",
+        "message": "Define el tipo de centro y su ubicación. Puedes indicar la dirección (y el sistema encontrará las coordenadas correspondientes) o indicar las coordenadas directamente.",
+        "name": "Nombre",
+        "name_placeholder": "Ej. Obrador de Sils, Molino de Piera...",
+        "edificacio_type": "Tipología",
+        "edificacio_type_placeholder": "Selecciona una tipología",
+        "search_address": "Buscar la dirección",
+        "latitude": "Latitud",
+        "latitude_placeholder": "Introduce la coordenada",
+        "longitude": "Longitud",
+        "longitude_placeholder": "Introduce la coordenada"
+      },
+      "alert_messages": {
+        "edificacio_deleted": "Centro de trabajo eliminado",
+        "edificacio_added": "Centro de trabajo añadido",
+        "file_download_error": "Error descargando el documento",
+        "edificacions_required": "Debes identificar los diferentes centros de trabajo."
+      }
+    },
+    "alert_messages": {
+      "section_brands_required": "Para poder dar de alta productos, primero debéis crear la marca.",
+      "section_indicators_required": "Para poder continuar, debéis introducir primero la información solicitada en el apartado de tipología de empresa.",
+      "section_auditories_required": "Para poder continuar, debéis introducir primero la información solicitada en el apartado de fincas y centros de trabajo."
+    }
+  },
+  "company": {
+    "intro": "<p>En este apartado encontraréis los indicadores que tienen en cuenta el <i>conjunto</i> de la empresa. Por ello, es necesario que consideréis <strong>todos los centros de trabajo</strong> (explotaciones, obradores, almacenes, oficinas, etc.). En caso de que esta evaluación conjunta os haya resultado muy complicada para algún indicador, hacédnoslo saber en el apartado de observaciones.</p><p>Recordad que <strong>no podéis dejar ningún indicador estructural sin responder</strong>. Los <strong>complementarios</strong>, podéis atenderlos o no, aunque es recomendable que lo hagáis: no solo por un ejercicio de transparencia sino porque pueden ayudaros a subir la nota; en ningún caso os la harán bajar. También podéis marcar la casilla \"Descartamos evaluar este indicador por el momento\"; constarán como \"evaluados\" en el contador y los podréis responder más adelante (los distinguiréis fácilmente porque quedarán marcados con una señal morada).</p>",
+    "estructurals": "Estructurales",
+    "complementaris": "Complementarios"
+  },
+  "sectors": {
+    "intro": "<p>Añadid aquí <strong>los sectores a los que pertenezcan los productos que queréis incorporar a Triplus</strong> y solo estos. En caso de envasar productos de producción o cosecha propia, siempre que sean sin procesar o solo con una mínima acción básica como puede ser prensar las aceitunas para obtener aceite, secar plantas y setas, sacrificar un animal para venderlo entero o cortado, debéis elegir el <strong>sector productor</strong>, incluso si se le añade algún aditivo; cuando la manipulación ya es más compleja y se añaden otros ingredientes, o hay todo un proceso de transformación, corresponde al <strong>sector elaborador</strong>.</p><p>Para evaluarlos, podéis abrirlos todos en pestañas separadas y atenderlos paralelamente, indicador por indicador, o completar un primer sector y luego hacer los demás; en este caso, el sistema permitirá arrastrar respuestas de sectores ya hechos, para que aprovechéis todo lo que se aplique y retocar lo que no.</p><p>Como en el caso de los indicadores de empresa, recordad que <strong>no podéis dejar ningún indicador estructural sin responder</strong>; solo los complementarios son opcionales.</p>",
+    "page_title": "Sectores",
+    "add_sector_btn": "Añadir un sector",
+    "num_products": "productos añadidos",
+    "estructurals": "Estructurales",
+    "complementaris": "Complementarios",
+    "evaluate_btn": "Evaluar",
+    "download_stamp": "Descargar sello",
+    "delete_confirmation": {
+      "header": "Eliminar el sector",
+      "message": "¿Seguro que queréis eliminar el sector {sector}? Si lo confirmáis, se borrará de forma irreversible toda la información que hayáis introducido, tanto en los indicadores de este sector como en los indicadores de los productos que estén vinculados.",
+      "cancel_btn": "Cancelar",
+      "confirm_btn": "Sí, eliminarlo"
+    },
+    "creation": {
+      "title": "Añadir un nuevo sector",
+      "message": "Seleccionad el tipo y sector del producto que queréis incorporar:",
+      "action": "Añadir este sector",
+      "productor": "Producción",
+      "elaborador": "Elaboración",
+      "sector_mare_label": "Sector madre",
+      "sector_label": "Sector",
+      "sector_placeholder": "Seleccionad el sector",
+      "type_label": "Tipo",
+      "type_placeholder": "Seleccionad una opción"
+    },
+    "alert_messages": {
+      "no_sectors_added_message": "Seleccionad qué sectores queréis evaluar presionando el botón de añadir un sector"
+    }
+  },
+  "ingredients": {
+    "title_ingredient": "Ingrediente",
+    "message_ingredient": "Sabed que el mapa de origen de las materias primas que se publicará en la app junto con el resto de la información del producto mostrará el nombre y la localización de cada ingrediente. El porcentaje de peso, en cambio, se considera un dato confidencial y no se hará público en ningún caso; solo se utilizará para hacer los cálculos de los indicadores que tienen en cuenta la procedencia de los ingredientes.",
+    "title_subingredient": "Subingrediente",
+    "message_subingredient": "Igual que en el caso de los ingredientes, el porcentaje de peso del subingrediente se considera un dato confidencial y no se hará público en ningún caso.",
+    "ingredient_label": "Nombre del ingrediente",
+    "ingredient_placeholder": "Ej: Almendras",
+    "subingredient_label": "Nombre del subingrediente",
+    "subingredient_placeholder": "Ej: Sal",
+    "weight_percentage": "Porcentaje del peso",
+    "location_placeholder": "Buscad la población (región o país, si no sabéis de dónde proviene más concretamente)",
+    "unknown_location": "Desconocemos de dónde proviene",
+    "save_btn": "Guardar"
+  },
+  "products": {
+    "page_title": "Productos",
+    "add_product_btn": "Añadir un producto",
+    "intro": "<p>En esta sección deberéis crear primero los productos, uno por uno, y rellenar una <strong>ficha básica</strong> con una serie de datos que aparecerán en la app directamente (nombre, marca, formato de venta, descripción, imagen y certificaciones) y otros que servirán para mostrar sobre un mapa el origen de las materias primas o relacionarlo con otros productos de otras marcas y empresas.</p><p>Al igual que con los sectores, aquí también tendréis opción de <strong>arrastrar</strong> y aprovechar hasta donde sea necesario la respuesta que hayáis dado para algunos indicadores genéricos que también afecten a otros productos ya evaluados.</p><p>Como en el caso de los indicadores de empresa y de sectores, aquí tampoco <strong>podéis dejar ningún indicador estructural sin responder</strong>; solo los complementarios son opcionales.</p>",
+    "estructurals": "Estructurales",
+    "complementaris": "Complementarios",
+    "evaluate_btn": "Evaluar",
+    "manage": {
+      "creation_page_title": "Nuevo producto",
+      "edition_page_title": "Producto: {product}",
+      "product_name_label": "Nombre del producto",
+      "product_name_help_text": "Este es el nombre que leerán los consumidores en la app móvil.",
+      "format_label": "Formato de venta",
+      "format_help_text": "El formato de venta hace referencia al tipo de envase (si es a granel, especifíquelo) y/o al peso o volumen del alimento.",
+      "brand_name_label": "Marca",
+      "barcode_name_label": "Código de barras",
+      "no_barcode_label": "Este producto no tiene código de barras.",
+      "media_help_text": "Debe adjuntar al menos una foto frontal del producto. Opcionalmente, puede añadir más. Se recomienda que la fotografía muestre el producto limpio, sin fondo o con un fondo pálido, para que se vea bien en los listados, y con formato cuadrado; si es más ancho o más alto, quedará recortado por los lados o por encima y por debajo. Se recomienda que tenga 600 x 600 píxeles, pero 300 x 300 es suficiente.",
+      "sector_name_label": "Sector",
+      "ingredients": "Ingredientes",
+      "ingredient_add_btn": "Añadir un ingrediente",
+      "subingredient_add_btn": "Subingrediente",
+      "ingredients_info": "Es necesario identificar todos los ingredientes, por poco peso que tengan, también los aditivos. Solo en aquellos casos en que este porcentaje sea muy bajo y esté formado por una larga lista de ingredientes de características similares (10 o más), podéis recogerlos de forma agrupada; por ejemplo, hierbas aromáticas en la elaboración de algunas bebidas y licores. En caso de que el ingrediente sea un producto formado por otros ingredientes, deberéis identificarlos también y registrarlos como subingrediente.",
+      "save_btn": "Guardar",
+      "delete_btn": "Eliminar",
+      "producer_product_location": "Localización de la explotación donde se produce el producto",
+      "producer_product_location_placeholder": "Buscad la dirección o población",
+      "processor_product_location": "Lugar donde se elabora",
+      "processor_product_location_select": "Obrador",
+      "ingredient_location": "Localización de la explotación donde se produce, o del obrador donde se elabora",
+      "description_label": "Descripción",
+      "features_label": "Clasificación y certificaciones",
+      "features": {
+        "vegan_label": "Producto vegano (totalmente libre de ingredientes de origen animal)",
+        "vegetarian_label": "Producto vegetariano (como ingredientes de origen animal solo puede contener huevos, leche, miel o productos derivados de estos)",
+        "gluten_free_label": "Producto sin gluten certificado",
+        "organic_label": "Producto ecológico certificado",
+        "biodynamic_label": "Producto biodinámico certificado",
+        "fair_trade_label": "Producto de comercio justo certificado"
+      },
+      "product_category_name_label": "Clasificación",
+      "modal_category": {
+        "title": "Clasificación",
+        "message": "Clasificad el producto seleccionando la categoría que mejor le convenga:",
+        "confirm": "Asignar esta categoría",
+        "section_label": "Categoría",
+        "section_placeholder": "Seleccionad una categoría",
+        "category_label": "Sección",
+        "category_placeholder": "Seleccionad una sección",
+        "subcategory_label": "Subsección",
+        "subcategory_placeholder": "Seleccionad una subsección"
+      }
+    },
+    "evaluation": {
+      "page_title": "Producto: {product}",
+      "edit_btn": "Editar los datos",
+      "score_title": "Notas",
+      "download_indicators_pdf": "Descargar el informe de evaluación",
+      "download_stamp": "Descargar",
+      "score_info": "* Las notas se calcularán una vez todos los indicadores estructurales hayan sido completados.",
+      "descriptive_icons": {
+        "adn_title": "Soberanía del material genético",
+        "model_ramader": "Modelo ganadero"
+      }
+    },
+    "delete_confirmation": {
+      "header": "Eliminar el producto",
+      "message": "¿Seguro que quieres eliminar el producto {product}? Si lo confirmas, se borrará de forma irreversible toda la información que ya hayas introducido.",
+      "message_current_product": "¿Seguro que quieres continuar y eliminar este producto y todos los datos relacionados?",
+      "cancel_btn": "Cancelar",
+      "confirm_btn": "Sí, elimínalo"
+    },
+    "alert_messages": {
+      "product_deleted": "Producto eliminado",
+      "product_created": "Producto creado",
+      "invalid_form_saved": "Para poder guardar, es necesario completar todos los campos.",
+      "invalid_form_saved_multilang_field": "Para poder guardar, es necesario completar todos los campos en todos los idiomas.",
+      "no_obradors": "No tenéis ningún obrador en la lista de centros de trabajo. Id al perfil de empresa e introducidlo primero.",
+      "no_obradors_btn": "Identificar el obrador",
+      "barcode_must_be_numeric": "Introduzca solo caracteres numéricos y sin espacios."
+    }
+  },
+  "indicators": {
+    "type": {
+      "Complementari": "Indicador complementario",
+      "Estructural": "Indicador estructural"
+    },
+    "expand_list": "Expandir todo",
+    "collapse_list": "Contraer todo",
+    "open_calculator": "Acceder a la calculadora",
+    "answer": "Respuesta",
+    "delete_btn": "Eliminar",
+    "formulas": {
+      "apply_btn": "Guardar",
+      "escandall_costos": {
+        "full_escandall_title": "Escandallo completo",
+        "full_escandall_message": "Desglosar cómo se reparten los costos del producto evaluado:",
+        "partial_escandall_title": "Escandallo parcial",
+        "partial_escandall_message": "Desglosar cómo se reparten los costos del producto evaluado:",
+        "btn_open": "Llenar el escandallo",
+        "benefici": "Margen de beneficio %",
+        "costos_produccio": "Costos de producción %",
+        "costos_produccio_help_text": "(agregado de material, personal, materias primas, gastos estructurales y otros posibles gastos)",
+        "material": "Material %",
+        "personal": "Personal %",
+        "materies_primeres": "Materias primas %",
+        "despeses_estructurals": "Gastos estructurales %",
+        "altres_despeses": "Otros gastos %",
+        "error_percentages_message": "Debe completar todos los campos y en total deben sumar 100."
+      },
+      "bretxa_genere": {
+        "title": "Calculadora de la brecha salarial por género",
+        "message": "Los datos a introducir deben corresponder al último ejercicio económico:",
+        "sou_brut_mitja_homes": "Sueldo bruto medio de los hombres",
+        "sou_brut_mitja_dones": "Sueldo bruto medio de las mujeres y personas de género no binario",
+        "result": "Resultado"
+      },
+      "centre_treball_multiples_percentages": {
+        "title": "Calculadora para centros de trabajo",
+        "message": "Seleccione los emplazamientos que tienen trabajadores e indique, para cada uno de los rangos/opciones de distancia propuestos (km por carretera), cuántas personas se desplazan:",
+        "info_num_workers": "La suma de los trabajadores introducidos debe ser {total} trabajadores, que corresponde al número total de trabajadores de la empresa ({num_workers}) menos los que teletrabajan ({num_teletreball}).",
+        "location_and_name_label": "Lugar donde se trabaja",
+        "delete": "Eliminar este centro",
+        "add_option_btn": "Añadir una opción más",
+        "add_centre_btn": "Añadir otro centro de trabajo",
+        "option": "Opción",
+        "num_workers": "Número de trabajadores",
+        "result": "Resultado",
+        "num_workers_missmatch": "El número de trabajadores introducidos no coincide con el número total de trabajadores de la empresa",
+        "num_teletreball_info": "Introduzca, sin embargo, primero, el número de trabajadores que hacen teletrabajo durante el 70% o más de su jornada laboral.",
+        "num_teletreball_label": "Número de personas que teletrabajan"
+      },
+      "petita_pagesia": {
+        "title": "Calculadora",
+        "message": "Seleccione los emplazamientos que tienen trabajadores e indique, para cada uno de los rangos/opciones de distancia propuestos (km por carretera), cuántas personas se desplazan:",
+        "info_num_workers": "La suma de los trabajadores introducidos debe ser {total} trabajadores, que corresponde al número total de trabajadores de la empresa.",
+        "location_and_name_label": "Lugar donde se trabaja",
+        "delete": "Eliminar este centro",
+        "add_option_btn": "Añadir una opción más",
+        "add_centre_btn": "Añadir otro centro de trabajo",
+        "option": "Opción",
+        "num_workers": "Número de trabajadores",
+        "result": "Resultado",
+        "num_workers_missmatch": "El número de trabajadores introducidos no coincide con el número total de trabajadores de la empresa."
+      },
+      "despesa_energetica": {
+        "title": "Calculadora de consumo energético",
+        "message": "Los importes de gasto deben tener en cuenta todos los centros de trabajo y vehículos, y corresponder al último ejercicio económico:",
+        "despesa_final_label": "Gasto asociado al consumo de energías finales",
+        "despesa_total_label": "Gastos totales de la empresa",
+        "result": "Resultado"
+      },
+      "desviacio_paritat_llocs_responsabilitat": {
+        "title": "Calculadora de paridad en los puestos de responsabilidad",
+        "message": "Debe indicar qué proporción (porcentaje) representan en cada caso, no cuántos son:",
+        "percentatge_info": "Porcentaje (%) de mujeres y personas de género no binario en el conjunto de la entidad",
+        "percentatge_label": "Porcentaje",
+        "percentatge_responsabilitat_info": "Porcentaje (%) de mujeres y personas de género no binario en puestos de responsabilidad",
+        "result": "Resultado"
+      },
+      "facturacio_ponderada": {
+        "title": "Calculadora de puestos de trabajo generados",
+        "message": "Los datos a introducir deben corresponder al último ejercicio económico:",
+        "total_anual": "Facturación total anual",
+        "num_jornades": "Cómputo de jornadas laborales completas",
+        "result": "Resultado"
+      },
+      "aprofitament_aigues_pluvials": {
+        "title": "Calculadora de aprovechamiento de aguas pluviales",
+        "message": "Introduzca primero la superficie total de la finca:",
+        "superficie_explotacio": "Superficie (m²) de la explotación",
+        "superficie_sistemes": "Luego, la superficie (también en m²) correspondiente a cada uno de los siguientes sistemas de aprovechamiento:",
+        "captacio_teulades": "Captación de tejados y otras estructuras impermeables",
+        "diposits": "Balsas, tanques y depósitos",
+        "murs": "Muros y diques de contención de agua y micropresas",
+        "feixes": "Feixes",
+        "cultiu": "Cultivo en \"líneas clave\" (key lines)",
+        "captacio_teulades_help_text": "Superficie del tejado o de las estructuras impermeables en cuestión.",
+        "diposits_help_text": "Superficie de la finca de la cual procede el agua que almacenan.",
+        "murs_help_text": "Superficie de la finca de la cual procede el agua que permiten contener.",
+        "feixes_help_text": "Debe considerarse toda aquella superficie plana que, gracias a la existencia de paredes de piedra seca, permite aprovechar aguas pluviales.",
+        "cultiu_help_text": "Superficie de la finca donde los cultivos se distribuyen en líneas clave.",
+        "result": "Resultado",
+        "invalid_numbers_error": "Debe completar todos los campos.",
+        "sistemes_bigger_than_area_error": "La suma de los sistemas de aprovechamiento no puede superar la superficie total de la explotación."
+      },
+      "grau_endeutament_bancari": {
+        "title": "Cálculo del endeudamiento bancario",
+        "message": "Los datos a introducir deben corresponder al último ejercicio económico:",
+        "deute_total": "Deuda total",
+        "facturacio_total": "Facturación anual (ingresos totales)",
+        "result": "Resultado",
+        "missing_fields": "Debe completar todos los campos."
+      },
+      "heterogeneitat_espacial_explotacio": {
+        "title": "Calculadora de heterogeneidad",
+        "message": "Añada tantas comunidades vegetales como tenga en sus fincas. Hasta que los porcentajes no sumen 100 en total no aparecerá el resultado necesario para poder dar respuesta al indicador:",
+        "percentage": "Porcentaje",
+        "comunitat_vegetal": "Comunidad vegetal",
+        "comunitat_vegetal_placeholder": "Seleccione la opción que corresponda al resultado obtenido en la calculadora:",
+        "add_comunitat_vegetal_btn": "Añadir otra comunidad vegetal",
+        "result_comunitat_vegetal_principal": "Comunidad vegetal principal",
+        "result_sum_comunitat_vegetal": "Suma de las dos comunidades vegetales principales",
+        "result_close_btn": "Si todo está correcto, ya puede pulsar sobre el botón verde para registrar este resultado y volver a la página del indicador. Una vez allí, seleccione la afirmación que mejor encaje."
+      },
+      "ratio_salarial": {
+        "title": "Calculadora de escalada salarial",
+        "message": "Los sueldos a introducir deben corresponder siempre a un mismo tipo de jornada y siempre respecto del último ejercicio:",
+        "sou_brut_mes_alt": "Sueldo bruto más alto",
+        "sou_brut_mes_bajo": "Sueldo bruto más bajo",
+        "result": "Resultado"
+      },
+      "salari_digne": {
+        "title": "Calculadora de salario digno",
+        "message": "En caso de que haya múltiples personas con el mismo salario, se recomienda ingresar los datos de forma agregada. En caso contrario, de forma individual.",
+        "method_label": "Método de entrada de datos",
+        "method_single": "Individual",
+        "method_single_info": "deberéis indicar el salario de cada trabajador uno por uno",
+        "method_aggregated": "Agregada",
+        "method_aggregated_info": "deberéis indicar el importe de cada salario y cuántos trabajadores lo tienen",
+        "num_treballadors": "Número de trabajadores",
+        "salari_num_treballador": "Salario del trabajador {num}",
+        "salari_label": "Salario",
+        "add_row": "Añadir una fila",
+        "add_centre": "Añadir otro centro de trabajo",
+        "result": "Resultado",
+        "num_workers_missmatch": "El número de trabajadores introducidos no coincide con el número total de trabajadores de la empresa.",
+        "missing_fields": "Es necesario completar todos los campos."
+      }
+    },
+    "parameters": {
+      "climatic_zone": {
+        "title": "Gasto energético",
+        "info": "Seleccionad el centro de trabajo donde se consuma más energía:",
+        "edificacio": "Centro de trabajo"
+      },
+      "conditional_multiple_percentages_ponderats": {
+        "info": "Responded a cada pregunta introduciendo los porcentajes correspondientes:",
+        "percentage": "Porcentaje"
+      },
+      "multiple_percentages_ponderats": {
+        "info": "Responded a cada pregunta introduciendo los porcentajes correspondientes:",
+        "percentage": "Porcentaje"
+      },
+      "multiple_simple_components": {
+        "select_option": "Seleccionad una opción:",
+        "answer": "Respuesta",
+        "percentage": "Porcentaje",
+        "info": "Responded a cada pregunta introduciendo los porcentajes correspondientes:"
+      },
+      "percentages_all_ingredients_ponderats": {
+        "ingredients_missing": "Para poder responder este indicador, primero hay que introducir los ingredientes que forman el producto.",
+        "edit_product_btn": "Editar el producto",
+        "info": "Indicad, para cada ingrediente y subingrediente, qué opción le corresponde:",
+        "subingredient": "(subingrediente)"
+      },
+      "percentages_ingredients_ponderats": {
+        "ingredients_missing": "Para poder responder este indicador, primero hay que introducir los ingredientes que forman el producto.",
+        "edit_product_btn": "Editar el producto",
+        "info": "Indicad, para cada ingrediente, qué opción le corresponde:"
+      },
+      "radio": {
+        "select_option": "Seleccionad una opción"
+      },
+      "range": {
+        "answer": "Respuesta"
+      },
+      "ranking": {
+        "answer": "Respuesta"
+      },
+      "workers_survey": {
+        "copy_link_btn": "Copiar enlace a la encuesta"
+      }
+    },
+    "does_not_apply_confirmation": {
+      "checkbox_btn": "Este indicador no es pertinente para nuestra actividad.",
+      "title": "¿Seguro que este indicador no os es pertinente?",
+      "message": "Antes de confirmarlo, aseguraos de haber leído y entendido toda la información relativa a los parámetros correspondientes.",
+      "alert_message": "Tened en cuenta que el hecho de no entender cómo se debe analizar un indicador, desconocer o no tener a mano el dato o la información que se debe proporcionar no significa que no os corresponda. Si realmente no es pertinente para vuestra actividad, tendréis que justificarlo en el apartado de comentarios.",
+      "comments_label": "Comentarios",
+      "comments_placeholder": "Justificad el motivo por el cual consideráis que este indicador no es pertinente para vuestra actividad."
+    },
+    "dont_want_to_answer_confirmation": {
+      "title": "¿Seguro que queréis descartar este indicador?",
+      "message": "Se trata de un indicador complementario y podéis hacerlo. Sabed solo que quedará como atendido en el recuento correspondiente, sin ninguna incidencia en el cálculo de puntuaciones y que lo podréis evaluar en el futuro siempre que la plataforma esté abierta. Solo tendréis que desmarcar esta misma casilla que ahora marcáis.",
+      "checkbox_btn": "Descartamos evaluar este indicador de momento."
+    },
+    "replicate_answer": {
+      "title": "Hay otros indicadores que tenían la misma respuesta",
+      "message": "Se ha detectado que hay otros indicadores que tenían la misma respuesta. Si lo creéis oportuno y procede, podéis seleccionar los productos de la lista a los que queréis aplicar la misma respuesta y se actualizarán automáticamente.",
+      "action": "Actualizar",
+      "updated": "Cambios actualizados en los indicadores seleccionados"
+    },
+    "delete_confirmation": {
+      "header": "Borrar el contenido de este indicador",
+      "message": "¿Seguro que queréis borrar toda la información introducida hasta ahora en este indicador?",
+      "cancel_btn": "Cancelar",
+      "confirm_btn": "Sí, borrarla"
+    },
+    "exit_confirmation": {
+      "header": "Cambios detectados",
+      "message": "¿Seguro que queréis continuar sin guardar los cambios que habéis hecho?",
+      "cancel_btn": "Cancelar",
+      "confirm_btn": "Sí, continuar sin guardar"
+    },
+    "survey_link_copied": "Enlace copiado al portapapeles",
+    "duplicate_answer": {
+      "info": "Este indicador ya se ha respondido en algún otro {entity}. Podéis optar por copiar los mismos datos, si lo creéis oportuno. ¡No os olvidéis de guardar los cambios al terminar!",
+      "copy_action": "Copiar la misma respuesta que hay en {entity}",
+      "view_action": "(ver qué respuesta hay)",
+      "dont_copy": "No copies nada. Lo rellenaremos manualmente"
+    },
+    "verification_system": {
+      "header": "Sistema de verificación",
+      "footer": "Exigible durante la auditoría presencial."
+    },
+    "page_title": "Evaluación",
+    "nav": {
+      "exit_btn": "Salir",
+      "previous_btn": "Anterior",
+      "next_btn": "Siguiente"
+    },
+    "justify_label": "Justificación",
+    "justify_placeholder": "Escribe aquí...",
+    "observacions_label": "Observaciones (Opcional)",
+    "alert_messages": {
+      "calculator_required": "Para poder responder, debéis usar la calculadora habilitada.",
+      "indicator_deleted": "Indicador eliminado",
+      "indicator_discarted": "Indicador descartado",
+      "indicator_restored": "Indicador recuperado",
+      "invalid_submit": "Tenéis preguntas por responder o algún campo por rellenar."
+    }
+  },
+  "reset_password": {
+    "email_label": "Email",
+    "new_password_label": "Nueva contraseña",
+    "new_password_confirmation_label": "Confirmación de la nueva contraseña",
+    "action": "Regístrame con esta contraseña"
+  },
+  "forgot_password": {
+    "info": "Decidnos con qué dirección os registrasteis y os enviaremos un enlace para que podáis establecer una nueva contraseña:",
+    "email_label": "Email",
+    "action": "Envíame el enlace"
+  },
+  "evaluation_date": {
+    "page_title": "Período de evaluación",
+    "title": "Indicad la fecha a partir de la cual queréis empezar a introducir información:",
+    "message": "Cada año dispondréis de un período de 60 días para actualizar información, corregir datos y añadir o eliminar productos",
+    "input": "Fecha de inicio",
+    "save": "Guarda esta fecha",
+    "alert_messages": {
+      "date_updated": "Fecha guardada correctamente"
+    }
+  },
+  "evaluation_status_bar": {
+    "finish_btn": "Finalizar y solicitar validación",
+    "confirm_btn": "Sí, confirmo que todo está revisado",
+    "confirmation_title": "¿Seguro que habéis terminado de introducir toda la información y queréis que Triplus proceda a validarla?",
+    "confirmation_message": "<p>Antes de solicitar la validación, aseguraos de que:</p><ul><li>habéis revisado que toda la información recogida en el apartado de información pública del perfil de empresa sea correcta (recordad que es la que se mostrará en la app como ficha de empresa)</li><li>habéis revisado que toda la información recogida en el apartado de producto sea correcta (recordad que se mostrará en la app como parte de la ficha de producto)</li><li>habéis respondido todos los indicadores estructurales (recordad que estos son obligatorios)</li><li>habéis respondido todos los indicadores complementarios que queríais evaluar</li><li>habéis rellenado el campo de justificación donde ha sido necesario</li></ul><p>¡Si todo está correcto, adelante!</p>",
+    "checking_all_filled": {
+      "info": "Comprobando que se haya rellenado toda la información imprescindible...",
+      "wait": "Este proceso puede tardar un poco, no cerréis la ventana.",
+      "structural_pending": "Quedan algunos indicadores estructurales por responder. Hasta que no los completéis, no podréis solicitar la validación. Por favor, revisad los indicadores estructurales de:"
+    },
+    "checked_invalid": "Para poder solicitar la validación es necesario haber respondido todos los indicadores estructurales. Os queda {count} por responder. | Para poder solicitar la validación es necesario haber respondido todos los indicadores estructurales. Os quedan {count} por responder.",
+    "company_structural_indicators_pending": "{count} indicador estructural pendiente | {count} indicadores estructurales pendientes",
+    "sector_structural_indicators_pending": "{count} indicador estructural pendiente en el sector {sectorName} | {count} indicadores estructurales pendientes en el sector {sectorName}",
+    "product_structural_indicators_pending": "{count} indicador estructural pendiente en el producto {productName} | {count} indicadores estructurales pendientes en el producto {productName}",
+    "sectors_title": "Sectores",
+    "products_title": "Productos"
+  }
+}

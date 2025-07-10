@@ -1,0 +1,221 @@
+/**
+Forms
+**/
+html body .input-custom.input-fill-solid,
+html body .input-custom.select-fill-solid,
+html body .input-custom.textarea-label-placement-floating {
+	--background: #fff;
+}
+
+html body .input-custom.input-fill-solid .input-wrapper.sc-ion-input-md,
+html body .input-custom.select-fill-solid .input-wrapper.sc-ion-input-md,
+html body .input-custom.textarea-label-placement-floating .textarea-wrapper.sc-ion-textarea-md {
+	border-radius: 8px;
+	border: var(--border-width) var(--border-style) var(--ion-color-step-300, #b3b3b3);
+}
+
+html body .input-custom .label-text {
+	color: #8885AC;
+}
+
+html body .input-custom .input-highlight,
+html body .input-custom .textarea-highlight {
+	display: none;
+}
+
+body .input-fill-solid.input-custom.has-focus,
+html body .input-custom.textarea-label-placement-floating.has-focus {
+	--background: #fff;
+}
+body .input-fill-solid.input-custom.has-focus .label-text,
+html body .input-custom.textarea-label-placement-floating.has-focus .label-text{
+	color: #000;
+}
+body .input-fill-solid.input-custom.has-focus .input-wrapper,
+html body .input-custom.textarea-label-placement-floating.has-focus .textarea-wrapper{
+	border-color: var(--ion-color-primary);
+}
+
+
+.label-mb {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+ion-button {
+	text-transform: unset;
+}
+
+
+/* Hide input number arrows firefox */
+.native-input:disabled{
+	-moz-appearance: textfield;
+}
+
+.ion-input-mb {
+	margin-bottom: 1.2rem;
+}
+
+.input-error-message {
+	margin-top: 0.3rem;
+	color: rgb(239, 57, 57);
+	font-size: 0.8rem;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.input-number {
+	max-width: 200px;
+}
+
+
+/*
+Disabled
+*/
+.input-custom.input-disabled{
+	opacity: 0.7;
+}
+
+.input-custom.input-disabled input{
+	cursor: not-allowed;
+}
+
+/*+
+Modals
+**/
+ion-modal {
+  --ion-background-color: white;
+  --ion-border-width: 0;
+}
+
+ion-modal ion-header::after {
+    display: none;
+}
+ion-modal ion-footer::before {
+    display: none;
+}
+ion-modal .modal-title{
+    color: black;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+ion-modal ion-content {
+   --color: var(--ion-color-step-550, #737373);
+}
+
+/**
+Alert Modals | Select popover
+ **/
+ion-alert .alert-wrapper.sc-ion-alert-md {
+	background-color: #fff;
+	min-width: 450px;
+}
+ion-alert .alert-button-group.sc-ion-alert-md{
+    justify-content: space-between;
+}
+ion-alert .alert-button-group .alert-button{
+    border: 0;
+}
+ion-alert .alert-wrapper.sc-ion-alert-md .alert-button {
+	text-transform: unset;
+	    height: 32px;
+        font-size: 14px;
+}
+ion-alert .alert-wrapper .alert-button-role-confirm{
+    background: var(--ion-color-primary, #3880ff);
+    color: var(--ion-color-primary-contrast, #fff);
+    transition: var(--transition);
+    padding: 0 8px;
+    border-radius: 64px;
+    font-weight: bold;
+}
+
+
+/**
+Alert message
+**/
+.alert-info, .alert-danger {
+	line-height: 1.5rem;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.alert-info {
+	background: rgba(111 , 113,129, 0.15);
+	border-left: 4px solid var(--ion-color-primary);
+}
+
+.alert-danger {
+	background: rgba(111 , 113,129, 0.15);
+	border-left: 4px solid rgb(243 36 36);
+}
+
+/**
+Link
+**/
+.link {
+    font-size: 0.9rem;
+    color: #666;
+	cursor:pointer;
+}
+.link:hover {
+	color: var(--ion-color-primary);
+	transition: color 0.1s ease;
+}
+
+
+/**
+Select popover
+**/
+.popover-viewport .sc-ion-select-popover-md{
+	padding:0;
+}
+.popover-viewport .select-interface-option{
+	margin: 5px 0;
+}
+.popover-viewport .select-interface-option.item-radio-checked,.select-interface-option:hover {
+	--background: #fff;
+	--background-hover: #fff;
+	color: var(--ion-color-primary);
+}
+
+/*
+Media library
+*/
+.media-library-dropzone-add{
+	background-color: #fff;
+	border-radius: 8px;
+	border-width: var(--border-width);
+	border-color: var(--ion-color-step-300, #b3b3b3);
+}
+
+/*
+Badge pill indicator type
+*/
+.indicator-type {
+     border-radius: 6px;
+     display: inline-block;
+     padding: 4px 8px;
+     font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.indicator-type.Complementari {
+    background-color: #e2e3e5;
+    border: 1px solid #c4c8cb;
+    border-radius: 6px;
+    color: #2b2f32;
+}
+
+.indicator-type.Estructural {
+    background-color: #cfe2ff;
+    border: 1px solid #9ec5fe;
+    border-radius: 6px;
+    color: #052c65;
+}
+
+

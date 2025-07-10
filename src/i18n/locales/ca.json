@@ -1,0 +1,678 @@
+{
+  "locale": {
+    "ca": "Català",
+    "es": "Español"
+  },
+  "validations": {
+    "required": "Aquest camp no es pot deixar buit.",
+    "multilang_required": "Heu d'emplenar aquest camp en tots els idiomes.",
+    "email": "L'adreça que heu introduït no té un format vàlid. Reviseu-la.",
+    "missing_fields": "Hi ha camps sense atendre, que no es poden deixar buits.",
+    "numeric_field_required": "Aquest camp no es pot deixar buit. Poseu-hi un 0 en tot cas.",
+    "minLength": "Aquest camp ha de tenir com a mínim {num} caràcters."
+  },
+  "global": {
+    "save_btn": "Desa",
+    "cancel_btn": "Cancel·lar",
+    "close_btn": "Tancar",
+    "edit_btn": "Editar",
+    "back_btn": "Tornar",
+    "delete_confirmation_btn": "Sí, elimina'l",
+    "alert_messages": {
+      "saved": "Canvis desats",
+      "platform_closed": "No s'han pogut desar els canvis. La plataforma està tancada fins que s'obri el nou període."
+    }
+  },
+  "auth": {
+    "login": {
+      "welcome": "Benvingut, benvinguda",
+      "intro": "Inicia la sessió",
+      "email": "Email",
+      "password": "Contrasenya",
+      "forgot_password_btn": "No recordeu quina contrasenya teníeu?",
+      "no_account_text": "No teniu compte encara?",
+      "register_btn": "Donar-se d'alta"
+    },
+    "register": {
+      "intro": "Creeu un compte per donar d'alta l'empresa:",
+      "legal_name": "Raó social",
+      "name": "Nom comercial de l'empresa",
+      "email": "Email",
+      "password": "Contrasenya",
+      "register_btn": "Dona d'alta l'empresa",
+      "already_registered_text": "Ja teniu compte?",
+      "login": "Iniciar la sessió"
+    }
+  },
+  "media-library": {
+    "fileTypeNotAllowed": "El fitxer ha de ser del tipus",
+    "tooLarge": "El fitxer és massa gran, màxim",
+    "tooSmall": "El fitxer és massa petit, mínim",
+    "tryAgain": "Si us plau, intenteu tornar-lo a pujar",
+    "somethingWentWrong": "Alguna cosa ha anat malament mentre es pujava aquest fitxer",
+    "selectOrDrag": "Seleccioneu o arrossegueu fitxers",
+    "selectOrDragMax": "Seleccioneu o arrossegueu un màxim de {maxItems} {file}",
+    "file": {
+      "singular": "fitxer",
+      "plural": "fitxers"
+    },
+    "anyImage": "qualsevol imatge",
+    "anyVideo": "qualsevol vídeo",
+    "goBack": "Tornar enrere",
+    "dropFile": "Deixeu anar el fitxer per pujar-lo",
+    "dragHere": "Arrossegueu el fitxer aquí",
+    "remove": "Eliminar",
+    "download": "Descarregar"
+  },
+  "nav": {
+    "home": "Inici",
+    "settings": "Configuració",
+    "profile": "Perfil d'empresa",
+    "company": "Indicadors d'empresa",
+    "sector": "Indicadors de sectors",
+    "products": "Indicadors de productes",
+    "legal_documents": "Documentació jurídica",
+    "audit_reports": "Informes d'auditoria"
+  },
+  "home": {
+    "auth": {
+      "login": "Iniciar la sessió",
+      "register": "Donar d'alta una empresa",
+      "logout": "Tancar la sessió"
+    },
+    "footer": {
+      "promoted_by": "Promou:",
+      "financed_by": "Finança:",
+      "promoted_and_financed_by_text": "Promou i finança: la Generalitat de Catalunya - Departament d'Empresa i Treball:"
+    }
+  },
+  "help": {
+    "help_btn": "Ajuda",
+    "faqs": "Preguntes freqüents",
+    "documents": "Documents"
+  },
+  "legal_documents": {
+    "page_title": "Documentació jurídica",
+    "intro": "Convenis signats entre l'empresa i Triplus, presentats per data de signatura. En negreta, el conveni vigent.",
+    "valid_until": "Vigent fins el dia {date}",
+    "download_btn": "Descarregar el conveni signat",
+    "no_results": "Encara no tens cap conveni signat"
+  },
+  "audit_reports": {
+    "page_title": "Informes d'auditoria",
+    "intro": "Presentats per data de validació",
+    "download_btn": "Descarregar l'informe",
+    "no_results": "Encara no tens cap informe d'auditoria"
+  },
+  "contact": {
+    "open_modal": "Contactar",
+    "title": "Consultes i suggeriments",
+    "text": "Feu-nos arribar els vostres dubtes, preguntes o comentaris, i us atendrem tan aviat com puguem.",
+    "cancel_btn": "Cancel·lar",
+    "send_btn": "Envia el missatge",
+    "phone": "Telèfon",
+    "email": "Email",
+    "message": "Missatge",
+    "message_placeholder": "Escriviu aquí..."
+  },
+  "settings": {
+    "page_title": "Configuració",
+    "users": {
+      "title": "Gestió dels usuaris",
+      "intro": "En aquest apartat podeu gestionar els usuaris que tenen accés al compte de la vostra empresa:",
+      "add_user": "Afegir un usuari",
+      "user_name": "Nom",
+      "user_email": "Email",
+      "delete_confirmation": {
+        "header": "Eliminar un usuari",
+        "message": "Segur que voleu eliminar l'usuari {mail}?",
+        "cancel_btn": "Cancel·lar",
+        "confirm_btn": "Sí, elimina'l"
+      },
+      "alert_messages": {
+        "deleted_user": "Usuari eliminat",
+        "added_user": "Usuari afegit",
+        "set_main_user": "Usuari principal actualitzat"
+      },
+      "main_user": {
+        "indicator": "Usuari principal",
+        "set_as_main": "Establir com a principal",
+        "confirmation": {
+          "header": "Transferir privilegis",
+          "message": "Segur que voleu deixar de ser l'usuari principal? Si ho confirmeu, passareu a ser un usuari comú i ja no podreu crear ni eliminar usuaris, ni donar per tancat el procés d'autoavaluació; aquests privilegis passaran al nou usuari principal.",
+          "cancel_btn": "Cancel·lar",
+          "confirm_btn": "Sí, transfereix els privilegis a aquest altre usuari"
+        }
+      },
+      "add_user_modal": {
+        "title": "Nou usuari amb accés al compte d'empresa",
+        "message": "Indiqueu el nom i l'email del nou usuari a crear i li farem arribar un missatge perquè pugui establir una contrasenya pròpia. Aquest nou usuari tindrà accés a tots els apartats del compte d'empresa, podrà editar-ne totes les dades i avaluar tots els indicadors, però només el vostre usuari tindrà permisos per validar la informació introduïda i finalitzar el procés d'autoavaluació.",
+        "confirm_btn": "Envia-li el missatge per establir una contrasenya"
+      },
+      "add_user_intro": "Enviarem un missatge a aquesta adreça perquè el nou usuari pugui establir-se una contrasenya pròpia per a accedir a la plataforma."
+    },
+    "account": {
+      "title": "Gestió del compte",
+      "intro": "En aquest apartat podeu actualitzar les credencials que utilitzeu per a accedir a la plataforma:",
+      "email": "Email",
+      "current_password": "Contrasenya actual",
+      "new_password": "Nova contrasenya",
+      "password_confirmation": "Confirmació de la nova contrasenya",
+      "update_password_btn": "Modifica la contrasenya",
+      "update_mail_btn": "Modifica l'email",
+      "delete_account_btn": "Eliminar el compte",
+      "delete_confirmation": {
+        "header": "Eliminar el compte",
+        "message": "Segur que voleu eliminar el compte d'empresa?",
+        "confirm_btn": "Sí, elimina'l"
+      },
+      "alert_messages": {
+        "mail_updated": "Email modificat correctament",
+        "password_updated": "Contrasenya modificada correctament"
+      }
+    }
+  },
+  "profile": {
+    "page_title": "Perfil d'empresa",
+    "add_missing_info_btn": "Afegir",
+    "public": {
+      "title": "Informació pública",
+      "intro": "Aquesta informació es mostrarà públicament a l'app Triplus en accedir a la fitxa d'empresa.",
+      "legal_name": "Raó social",
+      "name": "Nom comercial",
+      "address": "Adreça",
+      "description": "Descripció",
+      "placeholder_txt": "Escriviu aquí com voleu presentar l'empresa...",
+      "brands_title": "Marques comercials",
+      "brand_name": "Marca",
+      "add_brand_btn": "Afegir una marca",
+      "alert_messages": {
+        "missing_brand": "Com a mínim, heu d'incorporar una marca comercial."
+      }
+    },
+    "indicators": {
+      "title": "Tipologia d'empresa",
+      "intro": "Aquesta informació condicionarà la pertinença d'uns o altres indicadors.",
+      "company_type": "Sou una societat cooperativa?",
+      "cooperative_yes": "Socis treballadors + persones contractades",
+      "cooperative_no": "Personal no assalariat + personal assalariat",
+      "workers_num": "Personal total de l'empresa",
+      "workers_num_assalariats": "Del total anterior, quants són assalariats?",
+      "confirm_delete_indicators_when_num_workers_changed": {
+        "title": "Alerta! Haureu de revisar alguns dels indicadors",
+        "message": "Alguns indicadors tenen en compte el nombre de treballadors i/o de jornades, els salaris i en algun cas cal enviar una enquesta a tota la plantilla. Si confirmeu que el nombre de treballadors ha variat, s'esborrarà el contingut d'aquests indicadors i caldrà que els torneu a avaluar.",
+        "confirm_btn": "Confirmo que el nombre de treballadors ha variat"
+      },
+      "alert_messages": {
+        "required_fields": "Per a poder desar, cal respondre tots els camps que es demanen.",
+        "more_assalariats_than_workers": "El nombre de treballadors assalariats no pot superar el nombre total de treballadors."
+      }
+    },
+    "auditories": {
+      "title": "Finques i centres de treball",
+      "intro": "Aquesta informació es farà servir per a avaluar alguns indicadors i també a les visites d'auditoria.",
+      "terrenys": "Terrenys",
+      "terrenys_info": "Si incorporeu productes dels sectors de producció agrícola o ramadera, a banda d'identificar els emplaçaments on es faci la feina com a centres de treball (horts, granja, llocs habituals de pastura...), també heu d'identificar les finques. Podeu adjuntar el document de la DUN (declaració anual) o una taula que contingui la següent informació: municipi (codi), polígon, parcel·la, recinte i superfície.",
+      "download_document": "Descarregar document",
+      "uploading_document": "Pujant document...",
+      "edificacions": "Centres de treball",
+      "no_edificacions": "No hi ha dades.",
+      "add_edificacio": "Afegir un centre de treball",
+      "edit_edificacio": "Editar",
+      "edificacio_delete_confirmation": {
+        "header": "Eliminar un centre de treball",
+        "message": "Segur que voleu eliminar aquest centre de treball?"
+      },
+      "edificacio_edit_confirmation": {
+        "header": "Editar un centre de treball"
+      },
+      "edificacio_manage": {
+        "add_btn": "Desa",
+        "title_add": "Nou centre de treball",
+        "title_edit": "Editar un centre de treball",
+        "message": "Definiu el tipus de centre i on està ubicat. Podeu indicar-hi l'adreça (i el sistema us trobarà les coordenades que li corresponen) o indicar-hi les coordenades directament.",
+        "name": "Nom",
+        "name_placeholder": "Ex. Obrador de Sils, Molí de Piera...",
+        "edificacio_type": "Tipologia",
+        "edificacio_type_placeholder": "Seleccioneu una tipologia",
+        "search_address": "Cerqueu l'adreça",
+        "latitude": "Latitud",
+        "latitude_placeholder": "Introduïu la coordenada",
+        "longitude": "Longitud",
+        "longitude_placeholder": "Introduïu la coordenada"
+      },
+      "alert_messages": {
+        "edificacio_deleted": "Centre de treball eliminat",
+        "edificacio_added": "Centre de treball afegit",
+        "file_download_error": "Error descarregant el document",
+        "edificacions_required": "Heu d'identificar els diferents centres de treball."
+      }
+    },
+    "alert_messages": {
+      "section_brands_required": "Per a poder donar d'alta productes, heu de crear primer la marca.",
+      "section_indicators_required": "Per a poder continuar, heu d'introduir primer la informació que es demana a l'apartat de tipologia d'empresa.",
+      "section_auditories_required": "Per a poder continuar, heu d'introduir primer la informació que es demana a l'apartat de finques i centres de treball."
+    }
+  },
+  "company": {
+    "intro": "<p>En aquest apartat hi trobareu els indicadors que tenen en compte el <i>conjunt</i> de l'empresa. Per això, cal que considereu <strong>tots els centres de treball</strong> (explotacions, obradors, magatzems, oficines, etc.). En cas que aquesta avaluació conjunta us hagi estat molt complicada per a algun indicador, feu-nos-ho saber a l'apartat d'observacions.</p><p>Recordeu que <strong>no podeu deixar cap indicador estructural per respondre</strong>. Els <strong>complementaris</strong>, podeu atendre'ls o no, tot i que és bo que ho feu: no només per un exercici de transparència sinó perquè us poden ajudar a apujar la nota; en cap cas us la faran baixar. També podeu marcar la casella \"Descartem avaluar aquest indicador de moment\"; constaran com a \"avaluats\" al comptador i els podreu respondre més endavant (els distingireu fàcilment perquè quedaran marcats amb un senyal morat).</p>",
+    "estructurals": "Estructurals",
+    "complementaris": "Complementaris"
+  },
+  "sectors": {
+    "intro": "<p>Afegiu aquí <strong>els sectors a què pertanyin els productes que voleu incorporar a Triplus</strong> i només aquests. En cas d'envasar productes de producció o collita pròpia, sempre que siguin sense processar o només amb una mínima acció bàsica com pot ser premsar les olives per a obtenir-ne oli, assecar plantes i bolets, escorxar un animal per a vendre'l sencer o tallat, cal triar el <strong>sector productor</strong>, fins i tot en el cas d'afegir-hi algun additiu; quan la manipulació ja és més complexa i s'hi afegeixen altres ingredients, o hi ha tot un procés de transformació, correspon al <strong>sector elaborador</strong>.</p><p>Per a avaluar-los, podeu obrir-los tots en pestanyes separades i anar-los atenent paral·lelament, indicador per indicador, o bé completar un primer sector i després fer els altres; en aquest cas, el sistema us permetrà arrossegar respostes de sectors ja fets, perquè n'aprofiteu tot allò que s'hi adigui i retocar allò que no.</p><p>Com en el cas dels indicadors d'empresa, recordeu que <strong>no podeu deixar cap indicador estructural per respondre</strong>; només els complementaris són opcionals.</p>",
+    "page_title": "Sectors",
+    "add_sector_btn": "Afegir un sector",
+    "num_products": "productes afegits",
+    "estructurals": "Estructurals",
+    "complementaris": "Complementaris",
+    "evaluate_btn": "Avaluar",
+    "delete_confirmation": {
+      "header": "Eliminar el sector",
+      "message": "Segur que voleu eliminar el sector {sector}? Si ho confirmeu, s'esborrarà de forma irreversible tota la informació que ja haguéssiu introduït, tant als indicadors d'aquest sector com als indicadors dels productes que hi estiguin vinculats.",
+      "cancel_btn": "Cancel·lar",
+      "confirm_btn": "Sí, elimina'l"
+    },
+    "creation": {
+      "title": "Afegir un nou sector",
+      "message": "Seleccioneu el tipus i sector del producte que voleu incorporar:",
+      "action": "Afegeix aquest sector",
+      "productor": "Producció",
+      "elaborador": "Elaboració",
+      "sector_mare_label": "Sector mare",
+      "sector_label": "Sector",
+      "sector_placeholder": "Seleccioneu el sector",
+      "type_label": "Tipus",
+      "type_placeholder": "Seleccioneu una opció"
+    },
+    "alert_messages": {
+      "no_sectors_added_message": "Seleccioneu quins sectors voldreu avaluar prement el botó d'afegir un sector"
+    }
+  },
+  "ingredients": {
+    "title_ingredient": "Ingredient",
+    "message_ingredient": "Sapigueu que el mapa d'origen de les matèries primeres que es publicarà a l'app amb la resta d'informació del producte farà visible el nom i la localització de cada ingredient. El percentatge de pes, en canvi, es considera una dada confidencial i no es farà públic en cap cas; només es farà servir per a fer els càlculs dels indicadors que tenen en compte la procedència dels ingredients.",
+    "title_subingredient": "Subingredient",
+    "message_subingredient": "Igual que en el cas dels ingredients, el percentatge de pes del subingredient es considera una dada confidencial i no es farà públic en cap cas.",
+    "ingredient_label": "Nom de l'ingredient",
+    "ingredient_placeholder": "Ex: Ametlles",
+    "subingredient_label": "Nom del subingredient",
+    "subingredient_placeholder": "Ex: Sal",
+    "weight_percentage": "Percentatge del pes",
+    "location_placeholder": "Cerqueu la població (regió o país, si no sabeu d'on prové més concretament)",
+    "unknown_location": "Desconeixem d'on prové",
+    "save_btn": "Desa"
+  },
+  "products": {
+    "page_title": "Productes",
+    "add_product_btn": "Afegir un producte",
+    "intro": "<p>En aquest apartat haureu de crear primer els productes, un per un, i omplir-ne una <strong>fitxa bàsica</strong> amb una sèrie de dades que apareixeran a l'app directament (nom, marca, format de venda, descripció, imatge i certificacions) i unes altres que serviran per a mostrar sobre un mapa l'origen de les matèries primeres o relacionar-lo amb altres productes d'altres marques i empreses.</p><p>Igual que amb els sectors, aquí també tindreu opció a <strong>arrossegar</strong> i aprofitar fins on calgui la resposta que hàgiu donat per a alguns indicadors genèrics que també afectin altres productes ja avaluats.</p><p>Com en el cas dels indicadors d'empresa i de sectors, aquí tampoc <strong>no podeu deixar cap indicador estructural per respondre</strong>; només els complementaris són opcionals.</p>",
+    "estructurals": "Estructurals",
+    "complementaris": "Complementaris",
+    "evaluate_btn": "Avaluar",
+    "download_stamp": "Descarregar segell",
+    "manage": {
+      "creation_page_title": "Nou producte",
+      "edition_page_title": "Producte: {product}",
+      "product_name_label": "Nom del producte",
+      "product_name_help_text": "Aquest és el nom que llegiran els consumidors a l'app mòbil.",
+      "format_label": "Format de venda",
+      "format_help_text": "El format de venda fa referència al tipus d'envàs (si és a granel, especifiqueu-ho) i/o al pes o volum de l'aliment.",
+      "brand_name_label": "Marca",
+      "barcode_name_label": "Codi de barres",
+      "no_barcode_label": "Aquest producte no té codi de barres.",
+      "media_help_text": "Heu d'adjuntar com a mínim una foto frontal del producte. Opcionalment, podeu afegir-ne més. Es recomana que la fotografia mostri el producte net, sense fons o amb un fons pàl·lid, perquè es vegi bé als llistats, i amb format quadrat; si és més ampla o més alta, quedarà escapçada pels costats o per sobre i per sota. Es recomana que tingui 600 x 600 píxels, però 300 x 300 és suficient.",
+      "sector_name_label": "Sector",
+      "ingredients": "Ingredients",
+      "ingredient_add_btn": "Afegir un ingredient",
+      "subingredient_add_btn": "subingredient",
+      "ingredients_info": "Cal identificar tots els ingredients, per poc pes que hi tinguin, també els additius. Només en aquells casos en què aquest percentatge sigui molt baix i format per una llarga llista d'ingredients de característiques similars (10 o més), podeu recollir-los de forma agrupada; per exemple, herbes aromàtiques en l'elaboració d'algunes begudes i licors. En cas que l’ingredient sigui un producte format per altres ingredients, caldrà identificar-los també i registrar-los com a subingredient.",
+      "save_btn": "Desa",
+      "delete_btn": "Eliminar",
+      "producer_product_location": "Localització de l’explotació on es produeix el producte",
+      "producer_product_location_placeholder": "Cerqueu l'adreça o població",
+      "processor_product_location": "Lloc on s'elabora",
+      "processor_product_location_select": "Obrador",
+      "ingredient_location": "Localització de l’explotació on es produeix, o de l’obrador on s’elabora",
+      "description_label": "Descripció",
+      "features_label": "Classificació i certificacions",
+      "features": {
+        "vegan_label": "Producte vegà (totalment lliure d'ingredients d'origen animal)",
+        "vegetarian_label": "Producte vegetarià (com a ingredients d'origen animal només pot contenir ous, llet, mel o productes derivats d'aquests)",
+        "gluten_free_label": "Producte sense gluten certificat",
+        "organic_label": "Producte ecològic certificat",
+        "biodynamic_label": "Producte biodinàmic certificat",
+        "fair_trade_label": "Producte de comerç just certificat"
+      },
+      "product_category_name_label": "Classificació",
+      "modal_category": {
+        "title": "Classificació",
+        "message": "Classifiqueu el producte seleccionant la categoria que millor hi escaigui:",
+        "confirm": "Assigna-hi aquesta categoria",
+        "section_label": "Categoria",
+        "section_placeholder": "Seleccioneu una categoria",
+        "category_label": "Secció",
+        "category_placeholder": "Seleccioneu una secció",
+        "subcategory_label": "Subsecció",
+        "subcategory_placeholder": "Seleccioneu una subsecció"
+      }
+    },
+    "evaluation": {
+      "page_title": "Producte: {product}",
+      "edit_btn": "Editar-ne les dades",
+      "score_title": "Notes",
+      "download_indicators_pdf": "Descarregar-ne l'informe d'avaluació",
+      "download_stamp": "Descarregar",
+      "score_info": "* Les notes es calcularan una vegada tots els indicadors estructurals hagin estat completats.",
+      "descriptive_icons": {
+        "adn_title": "Sobirania del material genètic",
+        "model_ramader": "Model ramader"
+      }
+    },
+    "delete_confirmation": {
+      "header": "Eliminar el producte",
+      "message": "Segur que voleu eliminar el producte {product}? Si ho confirmeu, s'esborrarà de forma irreversible tota la informació que ja hi haguéssiu introduït.",
+      "message_current_product": "Segur que voleu continuar i eliminar aquest producte i totes les dades relacionades?",
+      "cancel_btn": "Cancel·lar",
+      "confirm_btn": "Sí, elimina'l"
+    },
+    "alert_messages": {
+      "product_deleted": "Producte eliminat",
+      "product_created": "Producte creat",
+      "invalid_form_saved": "Per a poder desar, cal completar tots els camps.",
+      "invalid_form_saved_multilang_field": "Per a poder desar, cal completar tots els camps en tots els idiomes.",
+      "no_obradors": "No teniu cap obrador a la llista de centres de treball. Aneu al perfil d'empresa i introduïu-lo primer.",
+      "no_obradors_btn": "Identificar l'obrador",
+      "barcode_must_be_numeric": "Introduïu només caràcters numèrics i sense espais."
+    }
+  },
+  "indicators": {
+    "type": {
+      "Complementari": "Indicador complementari",
+      "Estructural": "Indicador estructural"
+    },
+    "expand_list": "Expandir-ho tot",
+    "collapse_list": "Contraure-ho tot",
+    "open_calculator": "Accedir a la calculadora",
+    "answer": "Resposta",
+    "delete_btn": "Esborrar",
+    "formulas": {
+      "apply_btn": "Desa",
+      "escandall_costos": {
+        "full_escandall_title": "Escandall complet",
+        "full_escandall_message": "Desglosseu com es reparteixen els costos del producte avaluat:",
+        "partial_escandall_title": "Escandall parcial",
+        "partial_escandall_message": "Desglosseu com es reparteixen els costos del producte avaluat:",
+        "btn_open": "Omplir l'escandall",
+        "benefici": "Marge de benefici %",
+        "costos_produccio": "Costos de producció %",
+        "costos_produccio_help_text": "(agregat de material, personal, matèries primeres, despeses estructurals i altres possibles despeses)",
+        "material": "Material %",
+        "personal": "Personal %",
+        "materies_primeres": "Matèries primeres %",
+        "despeses_estructurals": "Despeses estructurals %",
+        "altres_despeses": "Altres despeses %",
+        "error_percentages_message": "Heu d'omplir tots els camps i en total han de sumar 100."
+      },
+      "bretxa_genere": {
+        "title": "Calculadora de la bretxa salarial per gènere",
+        "message": "Les dades a introduir han de correspondre al darrer exercici econòmic:",
+        "sou_brut_mitja_homes": "Sou brut mitjà dels homes",
+        "sou_brut_mitja_dones": "Sou brut mitjà de les dones i persones de gènere no binari",
+        "result": "Resultat"
+      },
+      "centre_treball_multiples_percentages": {
+        "title": "Calculadora per centres de treball",
+        "message": "Seleccioneu els emplaçaments que tenen treballadors i indiqueu, per a cadascun dels rangs/opcions de distància proposats (km per carretera), quantes persones s'hi desplacen:",
+        "info_num_workers": "La suma dels treballadors introduïts ha de ser {total} treballadors, que correspon al nombre total de treballadors de l’empresa ({num_workers}) menys els que fan teletreball ({num_teletreball}).",
+        "location_and_name_label": "Lloc on es treballa",
+        "delete": "Eliminar aquest centre",
+        "add_option_btn": "Afegir una opció més",
+        "add_centre_btn": "Afegir un altre centre de treball",
+        "option": "Opció",
+        "num_workers": "Nombre de treballadors",
+        "result": "Resultat",
+        "num_workers_missmatch": "El nombre de treballadors introduïts no coincideix amb el nombre de treballadors totals de l'empresa",
+        "num_teletreball_info": "Introduïu, però, primer, el nombre de treballadors que fan teletreball durant el 70% o més de la seva jornada laboral.",
+        "num_teletreball_label": "Nombre de persones que teletreballen"
+      },
+      "petita_pagesia": {
+        "title": "Calculadora",
+        "message": "Seleccioneu els emplaçaments que tenen treballadors i indiqueu, per a cadascun dels rangs/opcions de distància proposats (km per carretera), quantes persones s'hi desplacen:",
+        "info_num_workers": "La suma dels treballadors introduïts ha de ser {total} treballadors, que correspon al nombre total de treballadors de l’empresa.",
+        "location_and_name_label": "Lloc on es treballa",
+        "delete": "Eliminar aquest centre",
+        "add_option_btn": "Afegir una opció més",
+        "add_centre_btn": "Afegir un altre centre de treball",
+        "option": "Opció",
+        "num_workers": "Nombre de treballadors",
+        "result": "Resultat",
+        "num_workers_missmatch": "El nombre de treballadors introduïts no coincideix amb el nombre de treballadors totals de l'empresa."
+      },
+      "despesa_energetica": {
+        "title": "Calculadora de consum energètic",
+        "message": "Els imports de despesa han de tenir en compte tots els centres de treball i vehicles, i correspondre al darrer exercici econòmic:",
+        "despesa_final_label": "Despesa associada al consum d'energies finals",
+        "despesa_total_label": "Despeses totals de l'empresa",
+        "result": "Resultat"
+      },
+      "desviacio_paritat_llocs_responsabilitat": {
+        "title": "Calculadora de paritat als llocs de responsabilitat",
+        "message": "Heu d'indicar quina proporció (percentatge) representen en cada cas, no quantes són:",
+        "percentatge_info": "Percentatge (%) de dones i persones de gènere no binari en el conjunt de l'entitat",
+        "percentatge_label": "Percentatge",
+        "percentatge_responsabilitat_info": "Percentatge (%) de dones i persones de gènere no binari en llocs de responsabilitat",
+        "result": "Resultat"
+      },
+      "facturacio_ponderada": {
+        "title": "Calculadora de llocs de treball generats",
+        "message": "Les dades a introduir han de correspondre al darrer exercici econòmic:",
+        "total_anual": "Facturació total anual",
+        "num_jornades": "Còmput de jornades laborals completes",
+        "result": "Resultat"
+      },
+      "aprofitament_aigues_pluvials": {
+        "title": "Calculadora d’aprofitament d’aigües pluvials",
+        "message": "Introduïu primer la superfície total de la finca:",
+        "superficie_explotacio": "Superfície (m²) de l'explotació",
+        "superficie_sistemes": "Després, la superfície (també en m²) corresponent a cadascun dels següents sistemes d'aprofitament:",
+        "captacio_teulades": "Captació de teulades i altres estructures impermeables",
+        "diposits": "Basses, tancs i dipòsits",
+        "murs": "Murs i dics de contenció d'aigua i micropreses",
+        "feixes": "Feixes",
+        "cultiu": "Cultiu en \"línies clau\" (key lines)",
+        "captacio_teulades_help_text": "Superfície de la teulada o de les estructures impermeables en qüestió.",
+        "diposits_help_text": "Superfície de la finca de la qual procedeix l'aigua que emmagatzemen.",
+        "murs_help_text": "Superfície de la finca de la qual procedeix l'aigua que permeten contenir.",
+        "feixes_help_text": "Cal considerar tota aquella superfície plana que, gràcies a l'existència de parets de pedra seca, permet aprofitar aigües pluvials.",
+        "cultiu_help_text": "Superfície de la finca on els cultius es distribueixen en línies clau.",
+        "result": "Resultat",
+        "invalid_numbers_error": "Cal omplir tots els camps.",
+        "sistemes_bigger_than_area_error": "El sumatori dels sistemes d'aprofitament no pot superar la superfície total de l'explotació."
+      },
+      "grau_endeutament_bancari": {
+        "title": "Càlcul de l'endeutament bancari",
+        "message": "Les dades a introduir han de correspondre al darrer exercici econòmic:",
+        "deute_total": "Deute total",
+        "facturacio_total": "Facturació anual (ingressos totals)",
+        "result": "Resultat",
+        "missing_fields": "Cal omplir tots els camps."
+      },
+      "heterogeneitat_espacial_explotacio": {
+        "title": "Calculadora d'heterogeneïtat",
+        "message": "Afegiu tantes comunitats vegetals com tingueu a les vostres finques. Fins que els percentatges no sumin 100 en total no us apareixerà el resultat que necessiteu per a poder donar resposta a l'indicador:",
+        "percentage": "Percentatge",
+        "comunitat_vegetal": "Comunitat vegetal",
+        "comunitat_vegetal_placeholder": "Seleccioneu l'opció que correspongui al resultat obtingut a la calculadora:",
+        "add_comunitat_vegetal_btn": "Afegir una altra comunitat vegetal",
+        "result_comunitat_vegetal_principal": "Comunitat vegetal principal",
+        "result_sum_comunitat_vegetal": "Suma de les dues comunitats vegetals principals",
+        "result_close_btn": "Si tot és correcte, ja podeu prémer sobre el botó verd per registrar aquest resultat i tornar a la pàgina de l'indicador. Un cop allà, seleccioneu l'afirmació que millor hi encaixi."
+      },
+      "ratio_salarial": {
+        "title": "Calculadora d’escalat salarial",
+        "message": "Els sous a introduir han de correspondre sempre a un mateix tipus de jornada i sempre respecte del darrer exercici:",
+        "sou_brut_mes_alt": "Sou brut més alt",
+        "sou_brut_mes_baix": "Sou brut més baix",
+        "result": "Resultat"
+      },
+      "salari_digne": {
+        "title": "Calculadora de salari digne",
+        "message": "En cas que hi hagi múltiples persones amb un mateix salari, es recomana entrar les dades de forma agregada. En cas contrari, de forma individual.",
+        "method_label": "Mètode d'entrada de dades",
+        "method_single": "Individual",
+        "method_single_info": "haureu d'indicar el salari de cada treballador un per un",
+        "method_aggregated": "Agregada",
+        "method_aggregated_info": "haureu d'indicar l'import de cada salari i quants treballadors el tenen",
+        "num_treballadors": "Nombre de treballadors",
+        "salari_num_treballador": "Salari del treballador {num}",
+        "salari_label": "Salari",
+        "add_row": "Afegir una fila",
+        "add_centre": "Afegir un altre centre de treball",
+        "result": "Resultat",
+        "num_workers_missmatch": "El nombre de treballadors introduïts no coincideix amb el nombre de treballadors totals de l'empresa.",
+        "missing_fields": "Cal omplir tots els camps."
+      }
+    },
+    "parameters": {
+      "climatic_zone": {
+        "title": "Despesa energètica",
+        "info": "Seleccioneu el centre de treball on es consumeixi més energia:",
+        "edificacio": "Centre de treball"
+      },
+      "conditional_multiple_percentages_ponderats": {
+        "info": "Responeu a cada pregunta introduint els percentatges corresponents:",
+        "percentage": "Percentatge"
+      },
+      "multiple_percentages_ponderats": {
+        "info": "Responeu a cada pregunta introduint els percentatges corresponents:",
+        "percentage": "Percentatge"
+      },
+      "multiple_simple_components": {
+        "select_option": "Seleccioneu una opció:",
+        "answer": "Resposta",
+        "percentage": "Percentatge",
+        "info": "Responeu a cada pregunta introduint els percentatges corresponents:"
+      },
+      "percentages_all_ingredients_ponderats": {
+        "ingredients_missing": "Per a poder respondre aquest indicador, primer cal introduir els ingredients que formen el producte.",
+        "edit_product_btn": "Editar el producte",
+        "info": "Responeu, per a cada ingredient i subingredient, quina opció li correspon:",
+        "subingredient": "(subingredient)"
+      },
+      "percentages_ingredients_ponderats": {
+        "ingredients_missing": "Per a poder respondre aquest indicador, primer cal introduir els ingredients que formen el producte.",
+        "edit_product_btn": "Editar el producte",
+        "info": "Responeu, per a cada ingredient, quina opció li correspon:"
+      },
+      "radio": {
+        "select_option": "Seleccioneu una opció"
+      },
+      "range": {
+        "answer": "Resposta"
+      },
+      "ranking": {
+        "answer": "Resposta"
+      },
+      "workers_survey": {
+        "copy_link_btn": "Copiar enllaç a l'enquesta"
+      }
+    },
+    "does_not_apply_confirmation": {
+      "checkbox_btn": "Aquest indicador no és pertinent per a la nostra activitat.",
+      "title": "Segur que aquest indicador no us és pertinent?",
+      "message": "Abans de confirmar-ho, assegureu-vos que heu llegit i entès tota la informació relativa als paràmetres corresponents.",
+      "alert_message": "Tingueu en compte que el fet de no entendre com s'ha d'analitzar un indicador, desconèixer o no tenir a mà la dada o informació que s'hi ha de donar no vol dir que no us correspongui. Si realment no és pertinent per a la vostra activitat, ho haureu de justificar a l'apartat de comentaris.",
+      "comments_label": "Comentaris",
+      "comments_placeholder": "Justifiqueu el motiu pel qual considereu que aquest indicador no és pertinent per a la vostra activitat."
+    },
+    "dont_want_to_answer_confirmation": {
+      "title": "Segur que voleu descartar aquest indicador?",
+      "message": "Es tracta d'un indicador complementari i podeu fer-ho. Sapigueu només que quedarà com a atès en el comptatge corresponent, sense cap incidència en el càlcul de puntuacions i que el podreu avaluar en el futur sempre que la plataforma estigui oberta. Només haureu de desmarcar aquesta mateixa casella que ara marqueu.",
+      "checkbox_btn": "Descartem avaluar aquest indicador de moment."
+    },
+    "replicate_answer": {
+      "title": "Hi ha altres indicadors que tenien la mateixa resposta",
+      "message": "S'ha detectat que hi ha altres indicadors que tenien la mateixa resposta. Si ho creieu oportú i escau, podeu seleccionar els productes de la llista als quals voleu aplicar la mateixa resposta i s'actualitzaran automàticament.",
+      "action": "Actualitza",
+      "updated": "Canvis actualitzats als indicadors seleccionats"
+    },
+    "delete_confirmation": {
+      "header": "Esborrar el contingut d'aquest indicador",
+      "message": "Segur que voleu esborrar tota la informació introduïda fins ara en aquest indicador?",
+      "cancel_btn": "Cancel·lar",
+      "confirm_btn": "Sí, esborra-la"
+    },
+    "exit_confirmation": {
+      "header": "Canvis detectats",
+      "message": "Segur que voleu continuar sense desar els canvis que hi heu fet?",
+      "cancel_btn": "Cancel·lar",
+      "confirm_btn": "Sí, continua sense desar"
+    },
+    "survey_link_copied": "Enllaç copiat al portapapers",
+    "duplicate_answer": {
+      "info": "Aquest indicador ja s'ha respost en algun altre {entity}. Podeu optar per copiar-ne les mateixes dades, si ho creieu oportú. No us descuideu de desar els canvis en acabat!",
+      "copy_action": "Copiar la mateixa resposta que hi ha al {entity}",
+      "view_action": "(veure quina resposta hi ha)",
+      "dont_copy": "No copiïs res. Ho omplirem manualment"
+    },
+    "verification_system": {
+      "header": "Sistema de verificació",
+      "footer": "Exigible durant l'auditoria presencial."
+    },
+    "page_title": "Avaluació",
+    "nav": {
+      "exit_btn": "Sortir",
+      "previous_btn": "Anterior",
+      "next_btn": "Següent"
+    },
+    "justify_label": "Justificació",
+    "justify_placeholder": "Escriu aquí...",
+    "observacions_label": "Observacions (Opcional)",
+    "alert_messages": {
+      "calculator_required": "Per a poder respondre, heu de fer servir la calculadora habilitada.",
+      "indicator_deleted": "Indicador eliminat",
+      "indicator_discarted": "Indicador descartat",
+      "indicator_restored": "Indicador recuperat",
+      "invalid_submit": "Teniu preguntes per atendre o algun camp per omplir."
+    }
+  },
+  "reset_password": {
+    "email_label": "Email",
+    "new_password_label": "Nova contrasenya",
+    "new_password_confirmation_label": "Confirmació de la nova contrasenya",
+    "action": "Registra'm amb aquesta contrasenya"
+  },
+  "forgot_password": {
+    "info": "Digueu-nos amb quina adreça us vau registrar i us hi farem arribar un enllaç perquè pugueu establir una contrasenya nova:",
+    "email_label": "Email",
+    "action": "Envia'm l'enllaç"
+  },
+  "evaluation_date": {
+    "page_title": "Període d'avaluació",
+    "title": "Indiqueu la data a partir de la qual voleu començar a introduir informació:",
+    "message": "Cada any disposareu d'un període de 60 dies per a actualitzar informació, corregir dades i afegir o treure productes",
+    "input": "Data d'inici",
+    "save": "Desa aquesta data",
+    "alert_messages": {
+      "date_updated": "Data guardada correctament"
+    }
+  },
+  "evaluation_status_bar": {
+    "finish_btn": "Finalitzar i sol·licitar validació",
+    "confirm_btn": "Sí, confirmo que tot està revisat",
+    "confirmation_title": "Segur que heu acabat d'introduir tota la informació i voleu que Triplus passi a validar-la?",
+    "confirmation_message": "<p>Abans de demanar la validació, assegureu-vos que:</p><ul><li>heu revisat que tota la informació recollida a l’apartat d’informació pública del perfil d’empresa sigui correcta (recordeu que és la que es mostrarà a l’app com a fitxa d’empresa)</li><li>heu revisat que tota la informació recollida a l’apartat de producte sigui correcta (recordeu que es mostrarà a l’app com a part de la fitxa de producte)</li><li>heu respost tots els indicadors estructurals (recordeu que aquests són obligatoris)</li><li>heu respost tots els indicadors complementaris que volíeu avaluar</li><li>heu emplenat el camp de justificació allà on ha calgut</li></ul><p>Si tot és correcte, endavant!</p>",
+    "checking_all_filled": {
+      "info": "Comprovant que s'hagi emplenat tota la informació imprescindible...",
+      "wait": "Aquest procés pot trigar una estona, no tanqueu la finestra.",
+      "structural_pending": "Queden alguns indicadors estructurals per respondre. Fins que no els hagueu completat, no podreu sol·licitar la validació. Si us plau, reviseu els indicadors estructurals de:"
+    },
+    "checked_invalid": "Per a poder sol·licitar la validació cal haver respost tots els indicadors estructurals. Us en queda {count} per respondre. | Per a poder sol·licitar la validació cal haver respost tots els indicadors estructurals. Us en queden {count} per respondre.",
+    "company_structural_indicators_pending": "{count} indicador estructural pendent | {count} indicadors estructurals pendents",
+    "sector_structural_indicators_pending": "{count} indicador estructural pendent al sector {sectorName} | {count} indicadors estructurals pendents al sector {sectorName}",
+    "product_structural_indicators_pending": "{count} indicador estructural pendent al producte {productName} | {count} indicadors estructurals pendents al producte {productName}",
+    "sectors_title": "Sectors",
+    "products_title": "Productes"
+  }
+}
